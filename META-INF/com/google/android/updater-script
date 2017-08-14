@@ -1,6 +1,6 @@
 ui_print("Universal_Xiaomi_Helium_Patches");
 ui_print("By: yshalsager@XDA");
-ui_print("Patch[1] System Files");
+ui_print("Patch -1- System Files");
 ui_print(">>> Mounting partitions");
 	run_program("/sbin/mount", "/system");
 ui_print(">>> Copying Fix");

@@ -1,0 +1,12 @@
+ui_print("Universal_Xiaomi_Helium_Patches");
+ui_print("By: yshalsager@XDA");
+ui_print("Patch[1] System Files");
+ui_print(">>> Mounting partitions");
+	run_program("/sbin/mount", "/system");
+ui_print(">>> Copying Fix");
+	package_extract_dir("system", "/system");
+ui_print(">>>Now Unmounting partitions");
+	run_program("/sbin/umount", "/system");
+ui_print(" UnMounting Complete");
+ui_print(" Enjoy....:)");
+ui_print("Don't forget to flash boot and apps patches !");
